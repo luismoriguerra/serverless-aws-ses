@@ -1,0 +1,19 @@
+{
+  "name": "serverless-aws-ses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "yarn sls ses-template deploy --stage dev --aws-profile luismoriguerra-console",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@haftahave/serverless-ses-template": "^3.0.2"
+  },
+  "devDependencies": {
+    "serverless": "^2.27.0"
+  }
+}

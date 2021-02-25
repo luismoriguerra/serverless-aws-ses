@@ -1,0 +1,16 @@
+service: serverless-aws-ses
+
+plugins:
+  - '@haftahave/serverless-ses-template'
+
+custom:
+  sesTemplates:
+    region: 'us-east-1'                        # Specifies AWS region for SES templates (not required)
+  version: v1
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-east-1
+  stage: dev
+  profile: luismoriguerra-console

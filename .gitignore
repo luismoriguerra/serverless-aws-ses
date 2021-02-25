@@ -1,0 +1,16 @@
+# IDE - VSCode
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/*
+node_modules
+*/node_modules
+yarn-error.log
+*/.serverless/
+*/logs.json
+*/log.json
+data.txt
+var.ci
